@@ -25,6 +25,7 @@ increaseBy.addEventListener("click", ()=> {
   let a = +prompt("Write the base number to increase the counter:", 1);
   if(isFinite(a)) {
     incrementer = a;
+    increaseBy.innerHTML = "INCREASE BY: " + a;
   }
   else {
     alert("Please write a number");
@@ -35,6 +36,7 @@ startFrom.addEventListener("click", ()=> {
   let b = +prompt ("Write the number you want to start from:", 0);
   if(isFinite(b)) {
     counter.innerHTML = b;
+    startFrom.innerHTML = "START FROM: " + b;
   }
   else {
     alert("Please write a number");
