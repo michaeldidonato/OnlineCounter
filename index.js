@@ -18,6 +18,9 @@ resetCounter.addEventListener("click", ()=> {
   let reset = confirm("Are you sure you want to reset the counter?");
   if(reset == true) {
     counter.innerHTML = 0;
+    increaseBy.innerHTML = "INCREASE BY: 1";
+    startFrom.innerHTML = "START FROM: 0";
+    incrementer = 1;
   }
 })
 
