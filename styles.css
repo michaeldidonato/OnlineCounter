@@ -27,7 +27,9 @@ h1 {
   text-align: center;
 }
 
-
+.plus-minus {
+  
+}
 
 .button {
   margin-top: 20px;
@@ -53,9 +55,10 @@ h1 {
   transform: translateY(4px);
 }
 
-.reset {
+.reset,
+.increaseby,
+.startfrom {
   margin-top: 20px;
-  padding: 5px 20px;
   margin-left: 10px;
   margin-right: 10px;
 
@@ -82,23 +85,8 @@ h1 {
 }
 
 .increaseby {
-  margin-top: 20px;
-  padding: 5px 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-
-  display: inline-block;
-   padding: 15px 60px;
-   font-size: 24px;
-   cursor: pointer;
-   text-align: center;
-   text-decoration: none;
-   outline: none;
-   color: #fff;
+    padding: 15px 70px;
    background-color: #42A5F5;
-   border: none;
-   border-radius: 15px;
-   box-shadow:  0 9px #999;
 }
 
 .increaseby:hover {background-color: #2196F3}
@@ -110,23 +98,8 @@ h1 {
 }
 
 .startfrom {
-  margin-top: 20px;
-  padding: 5px 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-
-  display: inline-block;
-   padding: 15px 70px;
-   font-size: 24px;
-   cursor: pointer;
-   text-align: center;
-   text-decoration: none;
-   outline: none;
-   color: #fff;
+   padding: 15px 90px;
    background-color: #FF8F00;
-   border: none;
-   border-radius: 15px;
-   box-shadow: 0 9px #999;
 }
 
 .startfrom:hover {background-color: #FF6F00}
