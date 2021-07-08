@@ -9,3 +9,6 @@ This web app is a Online Counter that allows to:
 * CSS
 * Javascript
 
+## Istallation
+Clone the repo
+git clone https://github.com/michaeldidonato/OnlineCounter.git
