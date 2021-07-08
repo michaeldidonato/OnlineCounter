@@ -4,7 +4,7 @@ let minusElem = document.querySelector('#minus');
 let resetCounter = document.querySelector('#reset');
 let increaseBy = document.querySelector('#increaseby');
 let startFrom = document.querySelector('#startfrom');
-incrementer = 1;
+let incrementer = 1;
 
 plusElem.addEventListener("click", ()=> {
   counter.innerHTML = +counter.innerHTML+incrementer;
