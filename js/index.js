@@ -8,11 +8,11 @@ let incrementer = 1;
 
 plusElem.addEventListener("click", ()=> {
   counter.innerHTML = +counter.innerHTML+incrementer;
-})
+});
 
 minusElem.addEventListener("click", ()=> {
   counter.innerHTML = +counter.innerHTML-incrementer;
-})
+});
 
 resetCounter.addEventListener("click", ()=> {
   let reset = confirm("Are you sure you want to reset the counter?");
@@ -22,7 +22,7 @@ resetCounter.addEventListener("click", ()=> {
     startFrom.innerHTML = "START FROM: 0";
     incrementer = 1;
   }
-})
+});
 
 increaseBy.addEventListener("click", ()=> {
   let a = +prompt("Write the base number to increase the counter:", 1);
@@ -33,7 +33,7 @@ increaseBy.addEventListener("click", ()=> {
   else {
     alert("Please write a number");
   }
-})
+});
 
 startFrom.addEventListener("click", ()=> {
   let b = +prompt ("Write the number you want to start from:", 0);
@@ -44,4 +44,4 @@ startFrom.addEventListener("click", ()=> {
   else {
     alert("Please write a number");
   }
-})
+});
