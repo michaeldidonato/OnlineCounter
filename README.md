@@ -11,14 +11,15 @@ This web app is a Online Counter that allows to:
 * Google Fonts
 
 ## Istallation
-Clone the repo
+1. Clone the repo
 ```sh
 git clone https://github.com/michaeldidonato/OnlineCounter.git/
 ```
+2. Open index.html file on broswer
+3. Otherwise click the following link to try the app online: https://michaeldidonato.github.io/OnlineCounter/
 
 
-
-### Licence
+### License
 MIT License
 
 Copyright (c) 2021 Michael Di Donato
