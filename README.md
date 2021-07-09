@@ -8,6 +8,7 @@ This web app is a Online Counter that allows to:
 * HTML
 * CSS
 * Javascript
+* Google Fonts
 
 ## Istallation
 Clone the repo
