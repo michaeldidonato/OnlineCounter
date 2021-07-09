@@ -12,7 +12,9 @@ This web app is a Online Counter that allows to:
 
 ## Istallation
 Clone the repo
-git clone https://github.com/michaeldidonato/OnlineCounter.git
+```sh
+git clone https://github.com/michaeldidonato/OnlineCounter.git/
+```
 
 
 
