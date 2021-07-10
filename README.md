@@ -19,7 +19,7 @@ git clone https://github.com/michaeldidonato/OnlineCounter.git/
 
 3. Otherwise click the following link to try the app online: https://michaeldidonato.github.io/OnlineCounter/
 
-# Usage 
+## Usage 
 
 
 ### License
