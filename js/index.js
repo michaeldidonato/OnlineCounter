@@ -26,7 +26,7 @@ resetCounter.addEventListener("click", ()=> {
 
 increaseBy.addEventListener("click", ()=> {
   let a = +prompt("Write the base number to increase the counter:", 1);
-  if(isFinite(a)) {
+  if(isFinite(a) && a != null && a != '') {
     incrementer = a;
     increaseBy.innerHTML = "INCREASE BY: " + a;
   }
@@ -36,8 +36,8 @@ increaseBy.addEventListener("click", ()=> {
 });
 
 startFrom.addEventListener("click", ()=> {
-  let b = +prompt ("Write the number you want to start from:", 0);
-  if(isFinite(b)) {
+  let b = +prompt ("Write the number you want to start from:");
+  if(isFinite(b) && b != null && b  != '') {
     counter.innerHTML = b;
     startFrom.innerHTML = "START FROM: " + b;
   }
