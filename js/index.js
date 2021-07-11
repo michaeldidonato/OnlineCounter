@@ -41,6 +41,10 @@ startFrom.addEventListener("click", ()=> {
     counter.innerHTML = b;
     startFrom.innerHTML = "START FROM: " + b;
   }
+  else if (b===0) {
+    counter.innerHTML = b;
+    startFrom.innerHTML = "START FROM: " + b;
+  }
   else {
     alert("Please write a number");
   }
