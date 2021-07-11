@@ -26,7 +26,7 @@ resetCounter.addEventListener("click", ()=> {
 
 increaseBy.addEventListener("click", ()=> {
   let a = +prompt("Write the base number to increase the counter:", 1);
-  if(isFinite(a) && a != null && a != '') {
+  if(isFinite(a) && a !== null && a != '') {
     incrementer = a;
     increaseBy.innerHTML = "INCREASE BY: " + a;
   }
