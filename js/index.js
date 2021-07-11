@@ -37,13 +37,9 @@ increaseBy.addEventListener("click", ()=> {
 
 startFrom.addEventListener("click", ()=> {
   let b = +prompt ("Write the number you want to start from:", 0);
-  if(isFinite(b) && b != null && b != '') {
+  if(isFinite(b) && b !== null && b != '') {
     counter.innerHTML = b;
     startFrom.innerHTML = "START FROM: " + b;
-  }
-  else if (b === 0) {
-    counter.innerHTML = 0;
-    startFrom.innerHTML = "START FROM: " + 0;
   }
   else {
     alert("Please write a number");
