@@ -31,7 +31,7 @@ increaseBy.addEventListener("click", ()=> {
     increaseBy.innerHTML = "INCREASE BY: " + a;
   }
   else {
-    alert("Please write a number");
+    alert("Please write a valid number");
   }
 });
 
