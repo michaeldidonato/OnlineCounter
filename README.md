@@ -32,11 +32,11 @@ They turn in vertical way in small devices to allow the user to use them with co
 
 ![alt text](https://github.com/michaeldidonato/OnlineCounter/blob/main/img/increaseby-button.JPG)
 
-**INCREASE BY** button allows to choose the number you want to increase the counter - it admit also negative value
+**INCREASE BY** button allows to choose the number you want to increase the counter - it admit also negative value.
 
 ![alt text](https://github.com/michaeldidonato/OnlineCounter/blob/main/img/startfrom-button.JPG)
 
-**START FROM** button allows to choose the counter value you want to start from - useful when you need a countdown or need to start from a specific value
+**START FROM** button allows to choose the counter value you want to start from - useful when you need a countdown or need to start from a specific value.
 
 
 ### License
