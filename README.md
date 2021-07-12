@@ -28,7 +28,7 @@ They turn in vertical way in small devices to allow the user to use them with co
 ### Additional Buttons
 ![alt text](https://github.com/michaeldidonato/OnlineCounter/blob/main/img/reset-button.JPG)
 
-**RESET** button allows to reset the main counter, the settings and funtions were returned in default - this is not reversible choice.
+**RESET** button allows to reset the main counter, the settings and funtions will be returned in default - this is not reversible choice.
 
 ![alt text](https://github.com/michaeldidonato/OnlineCounter/blob/main/img/increaseby-button.JPG)
 
