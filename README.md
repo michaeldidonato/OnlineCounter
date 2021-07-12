@@ -23,7 +23,7 @@ git clone https://github.com/michaeldidonato/OnlineCounter.git/
 ![alt text](https://github.com/michaeldidonato/OnlineCounter/blob/main/img/counter.JPG)
 
 Fluid designed and mainly mobile-first, this app and this two buttons are easy to use in different situations. 
-They turn in vertical way in small devices to allow the user to use them with confidence. 
+They turn in vertical way on small devices to allow the user to use them with confidence. 
 
 ### Additional Buttons
 ![alt text](https://github.com/michaeldidonato/OnlineCounter/blob/main/img/reset-button.JPG)
