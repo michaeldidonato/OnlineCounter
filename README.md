@@ -19,7 +19,7 @@ git clone https://github.com/michaeldidonato/OnlineCounter.git/
 
 3. Otherwise click the following link to try the app online: https://michaeldidonato.github.io/OnlineCounter/
 
-## Usage 
+## How it works and Usage 
 ![alt text](https://github.com/michaeldidonato/OnlineCounter/blob/main/img/counter.JPG)
 
 Fluid designed and mainly mobile-first, this two buttons are easy to use in different situations. 
