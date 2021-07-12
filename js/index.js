@@ -15,7 +15,7 @@ minusElem.addEventListener("click", ()=> {
 });
 
 resetCounter.addEventListener("click", ()=> {
-  let reset = confirm("Are you sure you want to reset the counter?");
+  let reset = confirm("Are you sure you want to reset counter and settings?");
   if(reset == true) {
     counter.innerHTML = 0;
     increaseBy.innerHTML = "INCREASE BY: 1";
