@@ -20,6 +20,19 @@ git clone https://github.com/michaeldidonato/OnlineCounter.git/
 3. Otherwise click the following link to try the app online: https://michaeldidonato.github.io/OnlineCounter/
 
 ## Usage 
+![alt text](https://github.com/michaeldidonato/OnlineCounter/blob/main/img/counter.JPG)
+
+Fluid designed and mainly mobile-first, this two buttons are easy to use in different situations. 
+They turn in vertical way in small devices to allow the user to use them with confidence. 
+
+### Additional Buttons
+![alt text](https://github.com/michaeldidonato/OnlineCounter/blob/main/img/reset-button.JPG)
+
+**RESET** button allows to reset the main counter, the settings and funtions retuned in default - this is not reversible choice.
+
+![alt text](https://github.com/michaeldidonato/OnlineCounter/blob/main/img/increaseby-button.JPG)
+
+**INCREASE BY** button allows to choose the number you want to increase the counter - it admit also negative value
 
 
 ### License
