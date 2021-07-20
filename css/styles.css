@@ -23,13 +23,20 @@
   text-align: center;
 }
 
-
 h1 {
   text-align: center;
 }
 
 .plus-minus {
   flex-wrap: wrap;
+}
+
+#plus {
+  margin-left: 2px;
+}
+
+#minus {
+  margin-right: 2px;
 }
 
 .button {
