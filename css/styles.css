@@ -23,8 +23,13 @@
   text-align: center;
 }
 
+
 h1 {
   text-align: center;
+}
+
+.plus-minus {
+  flex-wrap: wrap;
 }
 
 .button {
