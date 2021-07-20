@@ -1,10 +1,38 @@
-let counter = document.querySelector("#counter");
-let plusElem = document.querySelector('#plus');
-let minusElem = document.querySelector('#minus');
+//let plusElem = document.querySelector('#plus');
+//let minusElem = document.querySelector('#minus');
 let resetCounter = document.querySelector('#reset');
 let increaseBy = document.querySelector('#increaseby');
 let startFrom = document.querySelector('#startfrom');
 let incrementer = 1;
+
+// Creation Counter from JavaScript
+let mainDiv = document.querySelector('.container');
+let counter = document.createElement('h2');
+counter.innerHTML = 0;
+let titleCounter = document.querySelector('h1');
+titleCounter.insertAdjacentElement('afterend',counter);
+counter.setAttribute('class','counter');
+counter.setAttribute('id','counter');
+
+//Creation Buttons +/-
+let divButtons = document.createElement('div');
+divButtons.setAttribute('class','plus-minus');
+counter.insertAdjacentElement('afterend',divButtons);
+
+
+let minusElem = document.createElement('button');
+minusElem.innerHTML = "-";
+divButtons.appendChild(minusElem);
+minusElem.setAttribute('class','button');
+minusElem.setAttribute('id','minus');
+
+let plusElem = document.createElement('button');
+plusElem.innerHTML = "+";
+divButtons.appendChild(plusElem);
+plusElem.setAttribute('class','button');
+plusElem.setAttribute('id','plus');
+
+console.log(mainDiv);
 
 plusElem.addEventListener("click", ()=> {
   counter.innerHTML = +counter.innerHTML+incrementer;
