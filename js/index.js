@@ -29,7 +29,7 @@ divButtons.appendChild(plusElem);
 plusElem.setAttribute('class','button');
 plusElem.setAttribute('id','plus');
 
-console.log(mainDiv);
+console.log(mainDiv); //Keeping track of created elements
 
 //Functions and events
 plusElem.addEventListener("click", ()=> {
