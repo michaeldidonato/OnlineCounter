@@ -1,11 +1,9 @@
-//let plusElem = document.querySelector('#plus');
-//let minusElem = document.querySelector('#minus');
 let resetCounter = document.querySelector('#reset');
 let increaseBy = document.querySelector('#increaseby');
 let startFrom = document.querySelector('#startfrom');
 let incrementer = 1;
 
-// Creation Counter from JavaScript
+// Creation of the Counter from JavaScript
 let mainDiv = document.querySelector('.container');
 let counter = document.createElement('h2');
 counter.innerHTML = 0;
@@ -14,11 +12,10 @@ titleCounter.insertAdjacentElement('afterend',counter);
 counter.setAttribute('class','counter');
 counter.setAttribute('id','counter');
 
-//Creation Buttons +/-
+//Creation of Buttons +/-
 let divButtons = document.createElement('div');
 divButtons.setAttribute('class','plus-minus');
 counter.insertAdjacentElement('afterend',divButtons);
-
 
 let minusElem = document.createElement('button');
 minusElem.innerHTML = "-";
@@ -34,6 +31,7 @@ plusElem.setAttribute('id','plus');
 
 console.log(mainDiv);
 
+//Functions and events
 plusElem.addEventListener("click", ()=> {
   counter.innerHTML = +counter.innerHTML+incrementer;
 });
